@@ -57,8 +57,11 @@ public class T03_Sahibincom {
             System.out.println("gittigidiyorTitle FAILED");
         }
         driver.navigate().back();
+
         driver.navigate().refresh();
+
         driver.navigate().forward();
+
         driver.close();
 
     }
